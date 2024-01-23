@@ -7,34 +7,100 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- header start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="Bootstrap" width="" height="">
-                  </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bagpacks</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
-                    </li>
-                </ul>
+   
+   <header>
+     <!-- header start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Bootstrap" width="" height="">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bagpacks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-      </nav>    
-    <!-- header end -->
+        </nav> 
+    <!-- header end --> 
+    <!-- slider start -->
+        <section class="mt-5">
+            <div id="carouselExampleInterval" class="carousel slide container mt-5" data-bs-ride="carousel ">
+                <div class="carousel-inner">
+                    <div class="carousel-item active bg-info border rounded " data-bs-interval="10000">
+                        <div class="row p-5">
+                            <div class="col-lg-7 d-flex align-items-center ">
+                                <div>
+                                    <h1>Cool Dude Headphone</h1>
+                                    <p>This is the best headphone for people who just want waste time in front of funky world.</p>
+                                    <h1>420$</h1>
+                                    <div class="btn btn-warning">Buy Now</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active bg-info border rounded " data-bs-interval="10000">
+                        <div class="row p-5">
+                            <div class="col-lg-7 d-flex align-items-center ">
+                                <div>
+                                    <h1>Mega LCD TV For Sports</h1>
+                                    <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                                    <h1>1200$</h1>
+                                    <div class="btn btn-warning">Buy Now</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active bg-info border rounded " data-bs-interval="10000">
+                        <div class="row p-5">
+                            <div class="col-lg-7 d-flex align-items-center ">
+                                <div>
+                                    <h1>X Box For your living room</h1>
+                                    <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                                    <h1>800$</h1>
+                                    <div class="btn btn-warning">Buy Now</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+        </section>
+        <!-- slider end --> 
+   </header>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
